@@ -26,12 +26,15 @@ export class FormularioComponent implements OnInit {
 
   paises: any[] = [
     { value: 'co', nombre: 'Colombia' },
-    { value: 'ar', nombre: 'Argentina' },
-    { value: 'br', nombre: 'Brasil' },
-    { value: 'fr', nombre: 'Francia' },
-    { value: 'hu', nombre: 'Hungria' },
+    { value: 'ru', nombre: 'Rusia' },
+    { value: 'ua', nombre: 'Ucrania' },
     { value: 'mx', nombre: 'Mexico' },
-    { value: 'gb', nombre: 'Reino Unido' }
+    { value: 've', nombre: 'Venezuela' },
+    { value: 'ar', nombre: 'Argentina' },
+    { value: 'fr', nombre: 'Francia' },
+    { value: 'gb', nombre: 'Reino Unido' },
+    { value: 'br', nombre: 'Brasil' },
+    { value: 'hu', nombre: 'Hungria' }
   ]
 
   constructor() { }
